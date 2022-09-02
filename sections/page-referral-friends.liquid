@@ -1,0 +1,156 @@
+<style>
+  .page-referral-friends {}
+  .page-referral-friends h2 {
+    width:100%;
+    line-height:44px;
+    text-align:center;
+    font-size:50px;
+    color: var(--main-text-color);
+  }
+  .page-referral-friends .sub_title {
+    font-size: 18px;
+    color: var(--text-sub-color);
+    line-height: 26px;
+  }
+  
+  .referral-banner {background-color: var(--weak-bg);}
+  .referral-content{
+    width: 100%; max-width: 1000px; margin: var(--gap) auto; background-color: var(--normal-color);
+    padding: 3% 5%;
+    border:1px solid #eee;
+  }
+
+  .referral-input {
+    width:100%;
+    border-bottom:1px solid red;
+    outline:0;
+    color:#C8C8C8;
+  }
+  .referral-name {
+    width:400px;
+    line-height:40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+
+  }
+
+  {% comment %} .referral-description {
+    width:100%;
+     line-height:74px;
+     text-align:center;
+     font-size:18px;
+     color:#333;
+  } {% endcomment %}
+
+</style>
+
+<div class="referral-banner">
+  <div class='referral-content'>
+    <h2>{{ section.settings.title }}</h2>
+    <div class='sub_title'>
+     {{ section.settings.sub_title }}
+    </div>
+
+    <main>
+    <form>
+     <div class='referral-name'>
+      <input  type="text" placeholder="{{ section.settings.Firstname }}" class="referral-input" />
+      <input  type="text" placeholder = "{{ section.settings.Lastname }}"  class="referral-input"/>
+    </div>
+      <input  type="password" placeholder = "{{ section.settings.Email }}" class="referral-input"/>
+    </form>
+
+    <div> 
+    {{ section.settings.subDesc }} 
+    {% comment %} <p>Subscribe to our new  </P> {% endcomment %}
+   </div>
+
+   
+ 
+    <button type='button' class='btn'>
+      Join in
+    </button>
+  </main>
+
+  <footer>
+    <p>notice</p>  
+  </footer>
+  
+  </div>
+
+</div>
+
+
+
+<script type="text/javascript">
+  (function(doc, win) {
+      var docEle = doc.documentElement, //获取html元素
+        event = "onorientationchange" in window ? "orientationchange" : "resize", //判断是屏幕旋转还是resize;
+        fn = function() {
+          var width = docEle.clientWidth;
+          width && (docEle.style.fontSize = 10 * (width / 375) + "px"); //设置html的fontSize，随着event的改变而改变。
+        };
+  
+      win.addEventListener(event, fn, false);
+      doc.addEventListener("DOMContentLoaded", fn, false);
+  
+  }(document, window));
+
+  document.querySelector(".btn").onclick = function() {
+    $api.inviteNew({}, function(r) {
+      console.log(r)
+    })
+  }
+
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    
+  })
+</script>
+
+{% schema %}
+{
+  "name": "page-referral-friends", "class": "page-referral-friends",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "HERE'S HOW TO GET YOUR $200"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "sub_heading",
+      "default": "Just fill out your info below to get started. Once done, we’ll give you four ways to start referring. Email, Facebook, Whatsapp or via your own link. The more friends you refer, the more you can save."
+    },
+    {
+      "type": "text",
+      "id": "Firstname",
+      "label": "Firstname",
+      "default": "Enter Your Firstname*"
+     
+    },
+    {
+      "type": "text",
+      "id": "Lastname",
+      "label": "Lastname",
+      "default": "Enter Your Lastname*"   
+    },
+    {
+      "type": "text",
+      "id": "Email",
+      "label": "Email",
+      "default": "Enter Your Email*"   
+    },
+    {
+      "type": "text",
+      "id": "subDesc",
+      "label": "subDesc",
+      "default": "Subscribe to our newsletter"   
+    }
+
+  ]
+}
+{% endschema %}
