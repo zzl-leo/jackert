@@ -86,7 +86,7 @@
     "social_twitter_link": "https:\/\/twitter.com\/jackeryinc",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/jackerypower\/_created\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/jackeryusa\/",
-    "social_snapchat_link": "",
+    "social_snapchat_link": "zzzzzz-test",
     "social_tumblr_link": "",
     "social_linkedin_link": "",
     "social_youtube_link": "https:\/\/www.youtube.com\/user\/jackeryinc",
@@ -2422,7 +2422,8 @@
           "164241095163cee678-0",
           "164241095163cee678-1"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "16424150437d3f0ba5": {
         "type": "Born-for-green-outdoors",
@@ -2450,14 +2451,7 @@
       "1642403968cf0a10da",
       "1548085830571",
       "1593507603110"
-    ],
-    "blocks": {
-      "14563957003475512843": {
-        "type": "shopify:\/\/apps\/push-notification-email-sms\/blocks\/app-embed-block\/7ec0ca92-e82f-4a94-bd3c-0e96d76b7694",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    ]
   },
   "presets": {
     "Classic": {
@@ -2563,7 +2557,8 @@
         },
         "collection-template": {
           "type": "collection-template",
-          "settings": {}
+          "settings": {
+          }
         },
         "product-template": {
           "type": "product-template",
@@ -2797,11 +2792,13 @@
           "blocks": {
             "product-image-row": {
               "type": "image-row",
-              "settings": {}
+              "settings": {
+              }
             },
             "product-text-and-image": {
               "type": "text-and-image",
-              "settings": {}
+              "settings": {
+              }
             },
             "product-background-image-text": {
               "type": "background-image-text",
@@ -2811,11 +2808,13 @@
             },
             "product-text-columns": {
               "type": "text-columns",
-              "settings": {}
+              "settings": {
+              }
             },
             "product-hero-video": {
               "type": "hero-video",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -2825,14 +2824,16 @@
             "product-text-columns",
             "product-hero-video"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "page-sections-template": {
           "type": "page-sections-template",
           "blocks": {
             "page-fading-images": {
               "type": "fading-images",
-              "settings": {}
+              "settings": {
+              }
             },
             "page-rich-text": {
               "type": "rich-text",
@@ -2844,7 +2845,8 @@
             },
             "page-text-columns": {
               "type": "text-columns",
-              "settings": {}
+              "settings": {
+              }
             },
             "page-background-image-text": {
               "type": "background-image-text",
@@ -2854,7 +2856,8 @@
             },
             "page-featured-collection": {
               "type": "featured-collection",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -2864,7 +2867,8 @@
             "page-background-image-text",
             "page-featured-collection"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "content_for_index": [
@@ -2981,7 +2985,8 @@
         },
         "collection-template": {
           "type": "collection-template",
-          "settings": {}
+          "settings": {
+          }
         },
         "product-template": {
           "type": "product-template",
@@ -3327,7 +3332,8 @@
         },
         "collection-template": {
           "type": "collection-template",
-          "settings": {}
+          "settings": {
+          }
         },
         "product-template": {
           "type": "product-template",
