@@ -87,6 +87,8 @@
   {% endif %}
 
   <!-- HC - Install ddslick - 24 Apr '19 -->
+  {% include 'defer-script' with 'init.js' %}
+
   {% include 'defer-script' with 'ddslick.js' %}
   {% include 'defer-script' with 'theme.js' %}
   {% include 'defer-script' with 'theme-v2.js' %}
