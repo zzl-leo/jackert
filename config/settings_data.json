@@ -38,7 +38,7 @@
     "type_base_accent_transform": false,
     "icon_weight": "5px",
     "icon_linecaps": "round",
-    "animate_page_transitions": true,
+    "animate_page_transitions": false,
     "animate_page_transition_style": "page-slide-reveal-down",
     "animate_sections": true,
     "animate_sections_background_style": "zoom-fade",
@@ -2439,6 +2439,32 @@
           "text_3_info": "Power at your fingertips.",
           "text_4": "Safe",
           "text_4_info": "Safety is our top priority."
+        }
+      },
+      "page-jackery-day-2022": {
+        "type": "page-jackery-day-2022",
+        "settings": {
+          "active_stage": "auto",
+          "main_title": "SOMETHING AMAZING",
+          "seconds_title": "IS COMMING SOON",
+          "sub_text": "Jackery Day 2022",
+          "datetime": "20th April 2022",
+          "time": "2022\/4\/20 16:00:00",
+          "desktop_video": "",
+          "mobile_video": "",
+          "category_title": "Find out about our other products",
+          "category_text": "<p>Jackery was founded in 2012 by a group of adventures engineers who believe in making<br\/>electricity portable, clean energy, outdoors-oriented, and accessible.<\/p>"
+        }
+      },
+      "page-referral-friends": {
+        "type": "page-referral-friends",
+        "settings": {
+          "title": "HERE'S HOW TO GET YOUR $200",
+          "sub_title": "Just fill out your info below to get started. Once done, we’ll give you four ways to start referring. Email, Facebook, Whatsapp or via your own link. The more friends you refer, the more you can save.",
+          "Firstname": "Enter Your Firstname*",
+          "Lastname": "Enter Your Lastname*",
+          "Email": "Enter Your Email*",
+          "subDesc": "Subscribe to our newsletter"
         }
       }
     },
