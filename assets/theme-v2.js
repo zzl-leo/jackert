@@ -5,7 +5,7 @@
 
  var $http = {
   // cr: "US",
-  cr: window.cr,
+  cr: window.shopParams.cr,
 
   host: function() {
     return "https://demo-api.myjackery.com";
