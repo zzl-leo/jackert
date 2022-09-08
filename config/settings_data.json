@@ -2389,6 +2389,7 @@
       },
       "1642405709c939e482": {
         "type": "text-image-v2",
+        "disabled": true,
         "settings": {
           "title": "Jackery Solar Generator",
           "subtitle": "Revolutionary, in a class-of-its-own, and packed with the latest solar efficiency and technology.",
