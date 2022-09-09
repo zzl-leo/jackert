@@ -128,7 +128,7 @@
         "settings": {
           "header_style": "white",
           "main_menu_link_list": "main-menu",
-          "show_header_policy": true,
+          "show_header_policy": false,
           "policy_a": "Free & Fast Delivery",
           "policy_b": "-tttt30-Day Money-Back Guarantee",
           "policy_c": "2-Year Warranty",
