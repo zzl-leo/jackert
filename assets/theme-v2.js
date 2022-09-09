@@ -1304,3 +1304,6 @@ var NotificationHandler = {
   }
 })()
 // 订阅插件逻辑-end
+
+
+console.log('test')
